@@ -4,8 +4,11 @@
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
 // import ProfilePictures from "./ProfilePictures";
-import MyComponent from "./MyComponent";
-import Counter from "./Button/Counter";
+// import MyComponent from "./MyComponent";
+// import Counter from "./Button/Counter";
+// import McComponent from "./mcComponent";
+import ColorPicker from "./ColorPicker";
+
 function App() {
   // const fruits = [
   //   { id: 1, name: "apple", calories: 40 },
@@ -25,9 +28,11 @@ function App() {
       <UserGreeting isLoggedIn={true} username="james harden" />
       <Button />
       <List items={fruits} category="Fruits" />
-      <ProfilePictures src="https://imgs.search.brave.com/wMw4mT30Db-avR4bMGPSiJO1JPQPtQyMGzybw1sCZEQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGdtc2l0ZXMu/bmV0L21lZC8yMDIx/LWxleHVzLWxzXzEw/MDc2OTI5OF9tLmpw/Zw" /> */}
+      <ProfilePictures src="https://imgs.search.brave.com/wMw4mT30Db-avR4bMGPSiJO1JPQPtQyMGzybw1sCZEQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGdtc2l0ZXMu/bmV0L21lZC8yMDIx/LWxleHVzLWxzXzEw/MDc2OTI5OF9tLmpw/Zw" /> 
       <MyComponent />
       <Counter />
+      <McComponent />*/}
+      <ColorPicker />
     </div>
   );
 }
