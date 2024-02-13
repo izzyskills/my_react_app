@@ -8,9 +8,10 @@
 // import Counter from "./Button/Counter";
 // import McComponent from "./mcComponent";
 // import ColorPicker from "./ColorPicker";
-import Mzcomponent from "./Mzcomponent";
-import MaComponent from "./maComponent";
-import ListState from "./ListState";
+// import Mzcomponent from "./Mzcomponent";
+// import MaComponent from "./maComponent";
+// import ListState from "./ListState";
+import Digital_Clock from "./Digital_Clock";
 function App() {
   // const fruits = [
   //   { id: 1, name: "apple", calories: 40 },
@@ -36,8 +37,9 @@ function App() {
       <McComponent />
       <ColorPicker />
       <Mzcomponent />
-      <MaComponent />*/}
-      <ListState />
+      <MaComponent />
+      <ListState />*/}
+      <Digital_Clock />
     </div>
   );
 }
